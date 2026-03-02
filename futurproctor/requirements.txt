@@ -1,34 +1,16 @@
-# Core Django packages
 Django==5.1.5
 gunicorn==25.1.0
 whitenoise
-python-dotenv==0.9.9
+python-dotenv
 dj-database-url==2.1.0
 psycopg2-binary
-
-# SendGrid Email
 sendgrid
-
-# Groq API
 groq==1.0.0
-
-# Web scraping & HTTP
 requests
 httpx
-
-# Channels for WebSockets (if needed)
 channels==4.2.0
-
-# Basic ML/CV (lighter alternatives)
 opencv-python-headless
 numpy
 pillow
+mediapipe
 
-# If you MUST have face detection, use these (lighter than dlib):
-# mediapipe
-# face-recognition-models
-
-# Comment out HEAVY packages for now:
-# dlib  # Requires CMake - VERY HEAVY
-# PyAudio  # Requires PortAudio
-# ultralytics  # YOLO - VERY HEAVY
