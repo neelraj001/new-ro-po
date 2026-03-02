@@ -13,4 +13,6 @@ opencv-python-headless
 numpy
 pillow
 mediapipe
+pytz
+daphne
 
