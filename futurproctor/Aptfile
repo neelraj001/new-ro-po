@@ -1,0 +1,6 @@
+cmake
+build-essential
+libopenblas-dev
+liblapack-dev
+portaudio19-dev
+python3-dev
